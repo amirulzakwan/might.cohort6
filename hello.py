@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.header("My first Streamlit App")
+st.sidebar.header("My first Streamlit App")
 
 
 map_data = pd.DataFrame(
